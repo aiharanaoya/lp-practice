@@ -1,20 +1,31 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import style from './index.module.scss';
-import { Content } from '@/components/content';
 
 const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>nextjs-template</title>
+        <title>LP Collection</title>
       </Head>
       <main className={style['main-content']}>
-        <h1 className={style['header']}>nextjs-template</h1>
-        <Content text={'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'} />
-        <Content text={'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'} />
-        <Content text={'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'} />
-        <Content text={'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'} />
+        <ul className={style['link-list']}>
+          <li className={style['item']}>
+            <Link href="/lp1">
+              <a>LP1</a>
+            </Link>
+          </li>
+          <li className={style['item']}>
+            <p>LP2</p>
+          </li>
+          <li className={style['item']}>
+            <p>LP3</p>
+          </li>
+          <li className={style['item']}>
+            <p>LP4</p>
+          </li>
+        </ul>
       </main>
     </>
   );

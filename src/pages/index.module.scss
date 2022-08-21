@@ -1,9 +1,9 @@
 .main-content {
-  background: black;
+  padding: 10px 30px;
+}
 
-  > .header {
-    color: white;
-    margin-top: 0;
-    margin-bottom: 10px;
+.link-list {
+  > .item {
+    font-size: 24px;
   }
 }
