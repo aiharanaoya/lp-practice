@@ -6,11 +6,31 @@ const LP1: NextPage = () => {
   return (
     <>
       <Head>
-        <title>LP1</title>
+        <title>Profile</title>
       </Head>
-      <main className={style['main-content']}>
-        <h1 className={style['main-header']}>LP1</h1>
-      </main>
+      <div className={style['lp1-body']}>
+        <header className={style['profile-header']}>
+          <h1 className={style['site-title']}>
+            <a href="#" className={style['link']}>
+              Profile
+            </a>
+          </h1>
+          <nav className={style['site-nav']}>
+            <ul className={style['list']}>
+              <li className={style['nav-item']}>
+                <a href="#" className={style['link']}>
+                  About
+                </a>
+              </li>
+              <li className={style['item']}>
+                <a href="#" className={style['link']}>
+                  Bicycle
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
     </>
   );
 };

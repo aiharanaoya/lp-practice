@@ -1,3 +1,25 @@
-.main-content {
-  padding: 10px 30px;
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.site-title {
+  margin: 10px 0;
+  padding: 5px 18px;
+  background: #444;
+
+  > .link {
+    display: block;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  > .list {
+    display: flex;
+  }
 }
