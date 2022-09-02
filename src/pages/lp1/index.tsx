@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import style from './index.module.scss';
 
 const LP1: NextPage = () => {
@@ -22,7 +23,7 @@ const LP1: NextPage = () => {
                   About
                 </a>
               </li>
-              <li className={style['item']}>
+              <li className={style['nav-item']}>
                 <a href="#" className={style['link']}>
                   Bicycle
                 </a>
@@ -30,6 +31,16 @@ const LP1: NextPage = () => {
             </ul>
           </nav>
         </header>
+        <main>
+          <div className={style['main-visual']}>
+            <Image
+              src={'https://code-step.com/demo/html/profile/img/mainvisual.jpg'}
+              alt={'テキストテキストテキスト'}
+              layout={'fill'}
+              objectFit={'cover'}
+            />
+          </div>
+        </main>
       </div>
     </>
   );
