@@ -47,4 +47,16 @@
   position: relative;
   max-width: 1920px;
   height: 600px;
+  margin-bottom: 80px;
+}
+
+.about-section {
+  text-align: center;
+
+  .title {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+  }
 }

@@ -40,6 +40,9 @@ const LP1: NextPage = () => {
               objectFit={'cover'}
             />
           </div>
+          <section className={style['about-section']}>
+            <h2 className={style['title']}>About</h2>
+          </section>
         </main>
       </div>
     </>
