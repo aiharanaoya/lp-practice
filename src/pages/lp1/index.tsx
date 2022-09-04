@@ -104,6 +104,9 @@ const LP1: NextPage = () => {
             </ul>
           </section>
         </main>
+        <footer className={style['profile-footer']}>
+          <p className={style['text']}>© 2022 Profile</p>
+        </footer>
       </div>
     </>
   );
