@@ -62,6 +62,47 @@ const LP1: NextPage = () => {
               </div>
             </div>
           </section>
+          <section className={style['bicycle-section']}>
+            <h2 className={style['title']}>Bicycle</h2>
+            <ul className={style['list']}>
+              <li className={style['bicycle-content']}>
+                <div className={style['image']}>
+                  <Image
+                    src={'https://code-step.com/demo/html/profile/img/bicycle1.jpg'}
+                    alt={'テキストテキストテキスト'}
+                    layout={'fill'}
+                    objectFit={'cover'}
+                  />
+                </div>
+                <h3 className={style['title']}>タイトルタイトル</h3>
+                <p className={style['description']}>テキストテキストテキスト</p>
+              </li>
+              <li className={style['bicycle-content']}>
+                <div className={style['image']}>
+                  <Image
+                    src={'https://code-step.com/demo/html/profile/img/bicycle2.jpg'}
+                    alt={'テキストテキストテキスト'}
+                    layout={'fill'}
+                    objectFit={'cover'}
+                  />
+                </div>
+                <h3 className={style['title']}>タイトルタイトル</h3>
+                <p className={style['description']}>テキストテキストテキスト</p>
+              </li>
+              <li className={style['bicycle-content']}>
+                <div className={style['image']}>
+                  <Image
+                    src={'https://code-step.com/demo/html/profile/img/bicycle3.jpg'}
+                    alt={'テキストテキストテキスト'}
+                    layout={'fill'}
+                    objectFit={'cover'}
+                  />
+                </div>
+                <h3 className={style['title']}>タイトルタイトル</h3>
+                <p className={style['description']}>テキストテキストテキスト</p>
+              </li>
+            </ul>
+          </section>
         </main>
       </div>
     </>
