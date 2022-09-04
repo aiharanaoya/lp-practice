@@ -1,5 +1,4 @@
 .lp1-body {
-  font-size: 0.9rem;
   color: #383e45;
 }
 
@@ -52,11 +51,39 @@
 
 .about-section {
   text-align: center;
+  margin-bottom: 100px;
 
-  .title {
+  > .title {
     display: inline-block;
     font-size: 2rem;
     margin-bottom: 60px;
     border-bottom: solid 1px #383e45;
+  }
+
+  > .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.profile-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-content {
+  > .name {
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  > .description {
+    margin: 0;
   }
 }

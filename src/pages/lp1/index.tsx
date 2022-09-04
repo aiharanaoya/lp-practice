@@ -42,6 +42,25 @@ const LP1: NextPage = () => {
           </div>
           <section className={style['about-section']}>
             <h2 className={style['title']}>About</h2>
+            <div className={style['profile']}>
+              <div className={style['profile-image']}>
+                <Image
+                  src={'https://code-step.com/demo/html/profile/img/about.jpg'}
+                  alt={'テキストテキストテキスト'}
+                  layout={'fill'}
+                />
+              </div>
+              <div className={style['profile-content']}>
+                <h3 className={style['name']}>KAKERU MIYAICHI</h3>
+                <p className={style['description']}>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                  <br />
+                  テキストテキストテキストテキストテキストテキストテキスト
+                  <br />
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </div>
+            </div>
           </section>
         </main>
       </div>
