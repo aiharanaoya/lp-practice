@@ -90,9 +90,10 @@
 }
 
 .bicycle-section {
-  text-align: center;
-  margin: 0 72px 100px;
+  max-width: 960px;
+  margin: 0 auto 100px;
   padding: 0 4%;
+  text-align: center;
 
   > .title {
     display: inline-block;
