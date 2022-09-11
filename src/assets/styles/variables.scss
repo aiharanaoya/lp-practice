@@ -1,4 +1,4 @@
 $breakpoints: (
-  'sp': 'screen and (min-width: 600px)',
-  'pc': 'screen and (min-width: 1200px)'
+  'sp': 'screen and (max-width: 600px)',
+  'pc': 'screen and (min-width: 601px)'
 ) !default;
